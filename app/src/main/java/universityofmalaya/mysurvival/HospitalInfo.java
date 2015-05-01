@@ -1,5 +1,10 @@
 package universityofmalaya.mysurvival;
 
+import android.content.Context;
+import android.content.Intent;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -25,10 +30,21 @@ import org.json.JSONObject;
 import android.app.ListActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Toast;
 
-public class HospitalInfo extends ListActivity {
+public class HospitalInfo extends ListActivity implements LocationProvider.LocationCallback  {
+
+    private LocationProvider mLocationProvider;
+    protected Context context;
+
+    String lat;
+    String provider;
+
+    protected boolean gps_enabled,network_enabled;
     ArrayList<GooglePlace> venuesList;
 
 
@@ -36,8 +52,10 @@ public class HospitalInfo extends ListActivity {
 
     // we will need to take the latitude and the logntitude from a certain point
 
-    final String latitude = "23.7000";
-    final String longtitude = "90.3667";
+
+
+    String latitude = "3.122254";
+    String longtitude = "101.653468";
 
     ArrayAdapter<String> myAdapter;
 
@@ -47,10 +65,26 @@ public class HospitalInfo extends ListActivity {
         setContentView(R.layout.activity_hospital_info);
 
         // start the AsyncTask that makes the call for the venus search.
-        new googleplaces().execute();
+
+        mLocationProvider = new LocationProvider(this, this);
+
+         new googleplaces().execute();
     }
 
-    private class googleplaces extends AsyncTask<View, Void, String> {
+    public void handleNewLocation(Location location) {
+
+         double currentLatitude = location.getLatitude();
+         double currentLongitude = location.getLongitude();
+
+         latitude =String.valueOf(currentLatitude);
+         longtitude =String.valueOf(currentLongitude);
+            new googleplaces().execute();
+
+    }
+
+
+
+     private class googleplaces extends AsyncTask<View, Void, String> {
 
         String temp;
 

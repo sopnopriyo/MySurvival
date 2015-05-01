@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="universityofmalaya.mysurvival" >
+    package="universityofmalaya.mysurvival"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,6 +18,8 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +27,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="universityofmalaya.mysurvival.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,24 +44,28 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".NearestHospital"
+            android:name="universityofmalaya.mysurvival.DangerInfo"
             android:label="@string/title_activity_nearest_hospital" >
         </activity>
         <activity
-            android:name=".BasicInfo"
+            android:name="universityofmalaya.mysurvival.BasicInfo"
             android:label="@string/title_activity_basic_info" >
         </activity>
         <activity
-            android:name=".EmergencyContact"
+            android:name="universityofmalaya.mysurvival.EmergencyContact"
             android:label="@string/title_activity_emergency_contact" >
         </activity>
         <activity
-            android:name=".FirstAid"
+            android:name="universityofmalaya.mysurvival.FirstAid"
             android:label="@string/title_activity_first_aid" >
         </activity>
         <activity
-            android:name=".HospitalInfo"
+            android:name="universityofmalaya.mysurvival.HospitalInfo"
             android:label="@string/title_activity_hospital_info" >
+        </activity>
+        <activity
+            android:name="universityofmalaya.mysurvival.FullImage"
+            android:label="@string/title_activity_full_image" >
         </activity>
     </application>
 

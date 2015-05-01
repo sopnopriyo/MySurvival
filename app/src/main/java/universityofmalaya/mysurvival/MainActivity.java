@@ -5,19 +5,22 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.location.Location;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.Toast;
 
-public class MainActivity extends Activity implements OnItemClickListener {
+public class MainActivity extends ActionBarActivity implements OnItemClickListener,LocationProvider.LocationCallback {
 
+    private LocationProvider mLocationProvider;
     String[] title;
     TypedArray profile_pics;
     String[] description;
-    //String[] contactType;
+    double currentLatitude =0,currentLongitude=0;
 
     List<RowItem> rowItems;
     ListView mylistview;
@@ -49,6 +52,8 @@ public class MainActivity extends Activity implements OnItemClickListener {
         profile_pics.recycle();
         mylistview.setOnItemClickListener(this);
 
+        mLocationProvider = new LocationProvider(this, this);
+
     }
 
 
@@ -70,10 +75,11 @@ public class MainActivity extends Activity implements OnItemClickListener {
 
             case 2:
                 Intent intent2 = new Intent(this, HospitalInfo.class);
+                 intent2.putExtra("currentLongitude", currentLongitude);
                 startActivity(intent2);
                 break;
             case 3:
-                Intent intent3 = new Intent(this, NearestHospital.class);
+                Intent intent3 = new Intent(this, DangerInfo.class);
                 startActivity(intent3);
                 break;
             case 4:
@@ -88,6 +94,26 @@ public class MainActivity extends Activity implements OnItemClickListener {
 
 
         }
+    }
+    public void handleNewLocation(Location location) {
+
+         currentLatitude = location.getLatitude();
+         currentLongitude = location.getLongitude();
+
+
+
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        mLocationProvider.connect();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mLocationProvider.disconnect();
     }
 
 }

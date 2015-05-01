@@ -18,6 +18,8 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -42,7 +44,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="universityofmalaya.mysurvival.NearestHospital"
+            android:name="universityofmalaya.mysurvival.DangerInfo"
             android:label="@string/title_activity_nearest_hospital" >
         </activity>
         <activity
@@ -60,6 +62,10 @@
         <activity
             android:name="universityofmalaya.mysurvival.HospitalInfo"
             android:label="@string/title_activity_hospital_info" >
+        </activity>
+        <activity
+            android:name="universityofmalaya.mysurvival.FullImage"
+            android:label="@string/title_activity_full_image" >
         </activity>
     </application>
 

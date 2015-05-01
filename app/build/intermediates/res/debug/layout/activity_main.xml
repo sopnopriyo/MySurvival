@@ -2,21 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
 
     <ImageView
-        android:src="@drawable/logo"
+        android:src="@drawable/main_banner"
         android:layout_width="250dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:id="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="false"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
 
     <ListView
         android:id="@+id/list"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout><!-- From: file:/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/src/main/res/layout/activity_main.xml -->

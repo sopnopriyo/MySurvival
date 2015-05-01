@@ -10,9 +10,10 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:textColor="#222222"
+        android:textColor="#ff000000"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:background="@android:drawable/bottom_bar" />
+        android:background="#ffe6ffb5"
+         />
 
 </LinearLayout><!-- From: file:/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/src/main/res/layout/row_layout.xml -->

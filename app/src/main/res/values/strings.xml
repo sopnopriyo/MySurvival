@@ -22,12 +22,28 @@
     <!-- Pictures -->
     <array name="profile_pics">
         <item>@drawable/basic_safety</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
-        <item>@drawable/logo</item>
+        <item>@drawable/first_aid_kit</item>
+        <item>@drawable/nearest_hospital</item>
+        <item>@drawable/danger_zone</item>
+        <item>@drawable/emergency_contact</item>
 
     </array>
+
+
+        // basic Information app
+    <array name="basic_info_pic">
+        <item>@drawable/road_safety</item>
+        <item>@drawable/fire_safety</item>
+        <item>@drawable/industrial_safety</item>
+        <item>@drawable/domestic_safety</item>
+        <item>@drawable/outdoor_safety</item>
+        <item>@drawable/disaster_safety</item>
+        <item>@drawable/sports_safety</item>
+        <item>@drawable/kids_safety</item>
+
+
+    </array>
+
 
     <!-- Status -->
     <string-array name="description">
@@ -40,7 +56,29 @@
     </string-array>
 
     <string name="basicInfo">Basic Information should be put here</string>
-    <string name="firstAidKit">First Aid Information should be put here</string>
+    <string name="firstAidKit">
+
+      In general, a cut that needs stitches should be repaired within 6 hours of the injury. The exception is cuts to  the face and scalp, which generally can be repaired up to 24 hours after the injury.
+        \n\n
+        Take the following steps for minor cuts.
+        \n
+        1. Stop the Bleeding \n
+           ---> Apply direct pressure on the area.\n
+        2. Clean and Protect \n
+           --->Clean the area with warm water and gentle soap.\n
+            --->Apply an antibiotic ointment to reduce chance of infection.\n
+            --->Put a sterile bandage on the area. In some people, antibiotic ointments may cause a rash. If this happens, stop using the ointment.\n
+        3. Call a Health Care Provider \n
+          --->Call a health care provider if: \n
+          --->The cut is deep or over a joint \n
+          --->You cannot get the cut or laceration clean \n
+          --->The injury is a deep puncture wound or the person has not had a recent (within the last 5 to 10 years) tetanus shot or booster \n
+          --->The cut is from a human or animal bite \n
+
+
+
+
+    </string>
     <string name="emergencyContact">Emergency Information should be put here</string>
 
 
@@ -76,21 +114,13 @@
     </string-array>
 
 
-    <string name="basic_text">In this Section , All the basic safety information will be explained through a number of categories.\n
-    1. Road Safety
-        \n
-    2. Bike Accident
-        \n
-    3. Car Accident
-        \n
-    4. Electrical Safety
-        \n
-    5. Fire Safety
-        \n
-    6. Domestic Safety
-    </string>
+
     <string name="title_activity_hospital_info">HospitalInfo</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_full_image">FullImage</string>
+
+
+
 
 </resources>
