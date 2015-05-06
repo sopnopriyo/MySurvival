@@ -36,26 +36,19 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class HospitalInfo extends ListActivity implements LocationProvider.LocationCallback  {
+public class HospitalInfo extends ListActivity  {
 
-    private LocationProvider mLocationProvider;
+
     protected Context context;
-
-    String lat;
-    String provider;
-
-    protected boolean gps_enabled,network_enabled;
-    ArrayList<GooglePlace> venuesList;
+      ArrayList<GooglePlace> venuesList;
 
 
-    final String GOOGLE_KEY = "AIzaSyDpK_-Wlf9epnslqqbuifzHYBCcbjnRY2E";
+    final String GOOGLE_KEY = "AIzaSyAxdQMbDdnXhKIavzaekPFbngiEy6J1PhU";
 
     // we will need to take the latitude and the logntitude from a certain point
 
-
-
-    String latitude = "3.122254";
-    String longtitude = "101.653468";
+     String latitude = "3.121461";
+    String longtitude = "101.655740";
 
     ArrayAdapter<String> myAdapter;
 
@@ -65,29 +58,23 @@ public class HospitalInfo extends ListActivity implements LocationProvider.Locat
         setContentView(R.layout.activity_hospital_info);
 
         // start the AsyncTask that makes the call for the venus search.
-
-        mLocationProvider = new LocationProvider(this, this);
-
-         new googleplaces().execute();
+              new googleplaces().execute();
     }
 
-    public void handleNewLocation(Location location) {
 
-         double currentLatitude = location.getLatitude();
-         double currentLongitude = location.getLongitude();
-
-         latitude =String.valueOf(currentLatitude);
-         longtitude =String.valueOf(currentLongitude);
-            new googleplaces().execute();
-
-    }
 
 
 
      private class googleplaces extends AsyncTask<View, Void, String> {
 
-        String temp;
 
+         String temp;
+
+         public  void setCoordinate(String lat,String lon){
+             latitude=lat;
+             longtitude=lon;
+
+         }
         @Override
         protected String doInBackground(View... urls) {
             // make Call to the url
@@ -102,6 +89,7 @@ public class HospitalInfo extends ListActivity implements LocationProvider.Locat
         protected void onPreExecute() {
             // we can start a progress bar here
         }
+
 
         @Override
         protected void onPostExecute(String result) {
@@ -220,4 +208,6 @@ public class HospitalInfo extends ListActivity implements LocationProvider.Locat
         return temp;
 
     }
+
+
 }

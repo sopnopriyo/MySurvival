@@ -13,6 +13,7 @@ import android.util.Log;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -59,7 +60,7 @@ public class DangerInfo extends FragmentActivity implements LocationProvider.Loc
                 setUpMap();
             }
         }
-        mMap.moveCamera(CameraUpdateFactory.zoomTo(12f));
+        mMap.moveCamera(CameraUpdateFactory.zoomTo(13f));
     }
 
 
@@ -80,15 +81,28 @@ public class DangerInfo extends FragmentActivity implements LocationProvider.Loc
         //mMap.addMarker(new MarkerOptions().position(new LatLng(currentLatitude, currentLongitude)).title("Current Location"));
         MarkerOptions options = new MarkerOptions()
                 .position(latLng)
-                .title("Current Location");
+                .title("Current Location").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
+
         mMap.addMarker(options);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
 
         mMap.addMarker(new MarkerOptions()
-                .position(new LatLng(3.122254, 101.653468))
+                .position(new LatLng(3.129257, 101.654956))
                 .title("Wild Animal"));
 
                 notification();
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(3.147911, 101.615955))
+                .title("Anti Social Behaviour"));
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(3.135798, 101.68709))
+                .title("Gun Crime"));
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(3.1202, 101.622296))
+                .title("Drugs and Crime"));
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(3.119674, 101.629899))
+                .title("Rape and sexual assault"));
 
 
     }
@@ -99,11 +113,11 @@ public class DangerInfo extends FragmentActivity implements LocationProvider.Loc
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
         String MyText = "Reminder";
-        Notification mNotification = new Notification(R.drawable.logo, MyText, System.currentTimeMillis() );
+        Notification mNotification = new Notification(R.drawable.monkey, MyText, System.currentTimeMillis() );
         //The three parameters are: 1. an icon, 2. a title, 3. time when the notification appears
 
         String MyNotificationTitle = "Wild Animal Attack!";
-        String MyNotificationText  = "Please beware of Wild Animal and try to keep as long as distance possible";
+        String MyNotificationText  = "Please beware of Monkey and Snake and try to keep as long as distance possible";
 
         Intent MyIntent = new Intent(Intent.ACTION_VIEW);
         PendingIntent StartIntent = PendingIntent.getActivity(getApplicationContext(),0,MyIntent, PendingIntent.FLAG_CANCEL_CURRENT);

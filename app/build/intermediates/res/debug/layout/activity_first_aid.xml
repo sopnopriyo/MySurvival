@@ -17,10 +17,14 @@ android:layout_height="fill_parent">
         android:id="@+id/imageView3"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/page1"
+
         />
 
 
 
+
     </ScrollView>
+
+
 
 </LinearLayout><!-- From: file:/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/src/main/res/layout/activity_first_aid.xml -->

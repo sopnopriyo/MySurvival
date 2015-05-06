@@ -6,161 +6,161 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-2a5692a6db5f36abbf6c5cc3775c640b6187288e.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-2a5692a6db5f36abbf6c5cc3775c640b6187288e.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-dc0a7ad4678fb473bebb834c36e831ef0c1b7ddd.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-dc0a7ad4678fb473bebb834c36e831ef0c1b7ddd.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-4cbeabcc062df5fca90bbc62104f25d3604c859b.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-4cbeabcc062df5fca90bbc62104f25d3604c859b.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-95084949d4ed04d5edc1a3746745c93e06117d52.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-95084949d4ed04d5edc1a3746745c93e06117d52.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-84f2541ebe5d45702867dfae60c7b6d7d4fdef17.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-84f2541ebe5d45702867dfae60c7b6d7d4fdef17.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-07240f42a646ee418c552fd0bc86f195565f3a24.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/internal_impl-22.0.0-07240f42a646ee418c552fd0bc86f195565f3a24.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-eceeaa07fd8054d6d5cb5844466de08776a04634.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-eceeaa07fd8054d6d5cb5844466de08776a04634.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-7cb20b958d8b45b1c9abe6b1a9dbf25745401d93.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/support-annotations-22.0.0-7cb20b958d8b45b1c9abe6b1a9dbf25745401d93.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-e9ea8246cd07c6019f0b8ea75045a8cde7ece2f3.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-e9ea8246cd07c6019f0b8ea75045a8cde7ece2f3.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-99230c201c4b1d2b91c6d4a23f67828598983150.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-99230c201c4b1d2b91c6d4a23f67828598983150.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-f24739dac9248a1a757373bfd7206b81f1e80a5a.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-f24739dac9248a1a757373bfd7206b81f1e80a5a.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-1c1ad079aca308a1e76cc04d3835577ef78c18a5.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-1c1ad079aca308a1e76cc04d3835577ef78c18a5.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-ff0005f74a67a5c586063221f7a97155cb30eb6a.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-ff0005f74a67a5c586063221f7a97155cb30eb6a.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-f04e6ad50531a0f3645f85825e9bb15c9fa97fa4.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-f04e6ad50531a0f3645f85825e9bb15c9fa97fa4.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-d54fab02f7600e728ea2ac2ba7c4d85b4c78e7ba.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-d54fab02f7600e728ea2ac2ba7c4d85b4c78e7ba.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-138bbec7d68fd74f115d76cf383f4dcc7f18bb9e.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-138bbec7d68fd74f115d76cf383f4dcc7f18bb9e.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-5acf4c213b189f225c2d5d50c77b36d0b96c5975.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-5acf4c213b189f225c2d5d50c77b36d0b96c5975.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-df0cdb7356987bde5ee59dff94b4a755b51c7ef5.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-df0cdb7356987bde5ee59dff94b4a755b51c7ef5.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-2cddfe6ddb312d3abbc6fc293fbe9ad8ac32a250.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-2cddfe6ddb312d3abbc6fc293fbe9ad8ac32a250.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-315432c42cb9156dbbab6e35fb2e8d62b0bbf71b.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-315432c42cb9156dbbab6e35fb2e8d62b0bbf71b.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-fa015da03ed3e2436f9a16718dfe3eaa666cd767.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-fa015da03ed3e2436f9a16718dfe3eaa666cd767.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-ccc2a54eaf98c785af247fd1f8bf5baf2c1ef786.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-ccc2a54eaf98c785af247fd1f8bf5baf2c1ef786.jar" />
     </item>
     <item
         jar="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/debug/classes-530b0ba5ffffce2640eacebdd523f028d1e668c9.jar" />
+        <dex dex="/home/sopnopriyo/AndroidStudioProjects/MYSurvival/app/build/intermediates/pre-dexed/release/classes-530b0ba5ffffce2640eacebdd523f028d1e668c9.jar" />
     </item>
 
 </items>

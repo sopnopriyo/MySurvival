@@ -75,7 +75,9 @@ public class MainActivity extends ActionBarActivity implements OnItemClickListen
 
             case 2:
                 Intent intent2 = new Intent(this, HospitalInfo.class);
-                 intent2.putExtra("currentLongitude", currentLongitude);
+                 intent2.putExtra("currentLatitude", currentLatitude);
+                intent2.putExtra("currentLongitude", currentLongitude);
+
                 startActivity(intent2);
                 break;
             case 3:

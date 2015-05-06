@@ -24,12 +24,7 @@ public class FullImage extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_image);
 
-
-
-
-
-
-        Intent i = getIntent();
+         Intent i = getIntent();
         int position = i.getExtras().getInt("id");
         //Toast.makeText(FullImage.this, "You Clicked at " + position, Toast.LENGTH_SHORT).show();
         ImageView imageView = (ImageView) findViewById(R.id.singleView);
